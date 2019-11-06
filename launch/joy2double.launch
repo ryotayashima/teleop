@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="teleop" type="joy2double" name="joy2double"/>
+    <node pkg="joy" type="joy_node" name="joy_node"/>
+</launch>
